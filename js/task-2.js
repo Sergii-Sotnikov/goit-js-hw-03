@@ -2,9 +2,9 @@ console.log("<<<<<<<<<<<<<<<<TASK 2>>>>>>>>>>>>>>>");
 function makeArray(firstArray, secondArray, maxLength) {
   const newArray = firstArray.concat(secondArray);
   if (newArray.length > maxLength) {
-    console.log(newArray.slice(0, maxLength));
+    return newArray.slice(0, maxLength);
   } else {
-    console.log(newArray);
+    return newArray;
   }
 }
 
